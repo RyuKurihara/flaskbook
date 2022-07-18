@@ -2,7 +2,7 @@
 ※1※2
 
 ## ローカルでの実行
-※想定するフォルダ構成
+想定するフォルダ構成
 ```
 ~/flaskbook/flaskbook/apps/~
                      /.env.local
@@ -15,9 +15,10 @@
 $ git clone https://github.com/RyuKurihara/flaskbook.git
 ```
 
-### Mac/Linuxの場合、本書のコード※3を参考にしてください。
+### Mac/Linuxの場合：
+本書のコード※3を参考にしてください。
 
-### Windows（Powershell）の場合
+### Windows（Powershell）の場合：
 ①スクリプト実行の前に実行ポリシーを変更
 ```
 > Set-ExecutionPolicy RemoteSigned CurrentUser
