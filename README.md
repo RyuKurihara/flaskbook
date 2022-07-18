@@ -92,10 +92,15 @@ PS C:\~\flaskbook> venv\Scripts\Activate.ps1
 このように画像がアップされます。「検知」を押すと、画像に対し多クラスの物体検知が行われます。
 ![image](https://user-images.githubusercontent.com/60368967/179618933-254c0330-8f61-4134-b632-bf0ce5aec12a.png)
 
-物体検知の結果、矩形とカテゴリ名が記載された画像が得られました。この画像はログインしているユーザーのみが削除可能です。
+物体検知の結果、矩形とカテゴリ名が記載された画像が得られました。
+
+この画像はログインしているユーザーのみ削除可能です。
+
 また、①先にアップした画像②物体検知後の画像の二枚は、apps/images/内に格納されます。
 ![image](https://user-images.githubusercontent.com/60368967/179619259-528a56cb-11af-4138-b1dd-66fe9adceb51.png)
 
 ※1. 上記書籍のうち、物体検知Webアプリのローカルでの再現(主に第2, 3章)を目標としています。
+
 ※2. 上記書籍のソースコードを参考に、まずは写経から！という気持ちで取り組みました。
+
 ※3. https://github.com/ml-flaskbook/flaskbook
