@@ -73,6 +73,9 @@ PS C:\~\flaskbook> venv\Scripts\Activate.ps1
 ![image](https://user-images.githubusercontent.com/60368967/179615953-bcfd2d86-68e8-470e-8e1b-2c839103d35a.png)
 ⑩に従います。
 
+![image](https://user-images.githubusercontent.com/60368967/179616379-d8e44a03-52e7-43e3-be14-11a0e034e1b8.png)
+するとこのような画面になります。
+
 
 
 
