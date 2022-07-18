@@ -15,8 +15,9 @@ $ git clone このgit
                      ~
 ```
 
+### Mac/Linuxの場合、本書のコードを参考にしてください。
 
-### Windows（Powershell）
+### Windows（Powershell）の場合
 ①スクリプト実行の前に実行ポリシーを変更
 ```
 > Set-ExecutionPolicy RemoteSigned CurrentUser
@@ -67,4 +68,6 @@ PS C:\~\flaskbook> venv\Scripts\Activate.ps1
 ```
 
 ⑨ http://127.0.0.1:5000/ にアクセス
+
+##
 
