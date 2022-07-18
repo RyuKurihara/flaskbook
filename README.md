@@ -86,8 +86,10 @@ PS C:\~\flaskbook> venv\Scripts\Activate.ps1
 ![image](https://user-images.githubusercontent.com/60368967/179617242-abea06bb-18b7-4eae-a323-14022b3cd322.png)
 
 「ファイルを選択」から、アップする画像を選びます。
-物体検知は
+![image](https://user-images.githubusercontent.com/60368967/179618341-fb4e639b-0503-49e6-a918-c3fdc7b7dd91.png)
 
+このように画像がアップされます。「検知」を押すと、画像に対し多クラスの物体検知が行われます。
+![image](https://user-images.githubusercontent.com/60368967/179618933-254c0330-8f61-4134-b632-bf0ce5aec12a.png)
 
 
 
