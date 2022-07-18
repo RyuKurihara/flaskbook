@@ -19,10 +19,26 @@ $ git clone このgit
 ### Windows（Powershell）
 ①スクリプト実行の前に実行ポリシーを変更
 ```
-> PowerShell Set-ExecutionPolicy RemoteSigned CurrentUser
+> Set-ExecutionPolicy RemoteSigned CurrentUser
 ```
 
 ②cdで一つ目のflaskbookにディレクトリを移動
+③venvで仮想環境を作成
+```
+PS C:\~\flaskbook> py -m venv venv
+PS C:\~\flaskbook> venv\Scripts\Activate.ps1
+```
+
+④環境変数ファイル設置
+```
+(venv) PS C:\~\flaskbook> cp .env.local .env
+```
+
+
+
+
+
+
 
 
 
