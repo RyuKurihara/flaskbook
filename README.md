@@ -15,8 +15,14 @@ $ git clone このgit
                      ~
 ```
 
-### Windows（Powershell）
 
+### Windows（Powershell）
+①スクリプト実行の前に実行ポリシーを変更
+```
+> PowerShell Set-ExecutionPolicy RemoteSigned CurrentUser
+```
+
+②cdで一つ目のflaskbookにディレクトリを移動
 
 
 
