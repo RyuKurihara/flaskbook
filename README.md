@@ -98,7 +98,7 @@ PS C:\~\flaskbook> venv\Scripts\Activate.ps1
 
 物体検知の結果、矩形とカテゴリ名が記載された画像が得られました。
 この画像はログインしているユーザーのみ削除可能です。
-また、①先にアップした画像②物体検知後の画像の二枚は、apps/images/内に格納されます。
+また、①先にアップした画像②物体検知後の画像の二枚はapps/images/内に格納されます。
 ![image](https://user-images.githubusercontent.com/60368967/179619259-528a56cb-11af-4138-b1dd-66fe9adceb51.png)
 
 
