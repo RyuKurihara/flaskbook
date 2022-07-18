@@ -70,17 +70,23 @@ PS C:\~\flaskbook> venv\Scripts\Activate.ps1
 ⑨ http://127.0.0.1:5000/ にアクセス
 
 ## 実行イメージ
-![image](https://user-images.githubusercontent.com/60368967/179615953-bcfd2d86-68e8-470e-8e1b-2c839103d35a.png)
 
 ⑩に従います。
+![image](https://user-images.githubusercontent.com/60368967/179615953-bcfd2d86-68e8-470e-8e1b-2c839103d35a.png)
 
-![image](https://user-images.githubusercontent.com/60368967/179616379-d8e44a03-52e7-43e3-be14-11a0e034e1b8.png)
 
 するとこのような画面になります。
 
+![image](https://user-images.githubusercontent.com/60368967/179616379-d8e44a03-52e7-43e3-be14-11a0e034e1b8.png)
+
+右上の「新規登録」を押し、任意のユーザー名、メールアドレス、パスワードを打ち込みます(次回ログイン時も使用するのでメモしてください)。
 ![image](https://user-images.githubusercontent.com/60368967/179616775-20e7b5d6-9026-4af1-ab06-e812a7129b6a.png)
 
-右上の「新規登録」を押し、任意のユーザー名、メールアドレス、パスワードを打ち込みます(次回ログイン時も使用するのでメモしてください)
+「画像の新規登録」を押します。
+![image](https://user-images.githubusercontent.com/60368967/179617242-abea06bb-18b7-4eae-a323-14022b3cd322.png)
+
+「ファイルを選択」から、アップする画像を選びます。
+物体検知は
 
 
 
