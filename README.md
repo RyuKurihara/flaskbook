@@ -1,18 +1,18 @@
 # 「Python Flask によるWebアプリ開発入門」のローカルでの再現
+※上記書籍のうち、物体検知Webアプリのローカルでの再現(主に第2, 3章)を目標としています。
 
-## ※上記書籍のうち、物体検知Webアプリのローカルでの再現(主に第2, 3章)を目標としています。
-### クローン
-
-```
-$ git clone https://github.com/RyuKurihara/flaskbook
-```
-
-### 想定するフォルダ構成
+## ローカルでの実行
+※想定するフォルダ構成
 ```
 ~/flaskbook/flaskbook/apps/~
                      /.env.local
                      /requirements.txt
                      ~
+```
+
+クローン
+```
+$ git clone https://github.com/RyuKurihara/flaskbook
 ```
 
 ### Mac/Linuxの場合、本書のコードを参考にしてください。
@@ -69,5 +69,5 @@ PS C:\~\flaskbook> venv\Scripts\Activate.ps1
 
 ⑨ http://127.0.0.1:5000/ にアクセス
 
-##
+## 実行イメージ
 
