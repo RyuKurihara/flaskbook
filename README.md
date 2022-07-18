@@ -40,13 +40,13 @@ PS C:\~\flaskbook> venv\Scripts\Activate.ps1
 (venv) PS C:\~\flaskbook> pip install -r requirements.txt
 ```
 
-⑥DBのマイグレート（画像やログイン情報の保持に必要）
+⑥DBのマイグレート（画像やログイン情報の保持に必要）※初回のみ必要
 ```
 (venv) PS C:\~\flaskbook> flask db init
 (venv) PS C:\~\flaskbook> flask db migrate
 (venv) PS C:\~\flaskbook> flask db upgrade
 ```
-※初回のみ必要
+
 
 ⑦物体検知モデルのモデル作成（Githubに落とすにはファイルが大きすぎるため別途作成）
 ```
@@ -61,7 +61,10 @@ PS C:\~\flaskbook> venv\Scripts\Activate.ps1
 (venv) PS C:\~\flaskbook> cd ..\..
 ```
 
-(venv) PS C:\~\flaskbook>
+⑧アプリケーションの起動
+```
+(venv) PS C:\~\flaskbook\flaskbook> flask run
+```
 
-
+⑨ http://127.0.0.1:5000/ にアクセス
 
