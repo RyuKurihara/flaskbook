@@ -4,15 +4,16 @@
 ## ローカルでの実行
 想定するフォルダ構成
 ```
-~/flaskbook/flaskbook/apps/~
-                     /.env.local
-                     /requirements.txt
-                     ~
+~/hoge/flaskbook/apps/~
+                /.env.local
+                /requirements.txt
+                ~
 ```
+*hoge=任意のフォルダ名、としてください。
 
 クローン
 ```
-$ git clone https://github.com/RyuKurihara/flaskbook.git
+PS C:\~\hoge> git clone https://github.com/RyuKurihara/flaskbook.git
 ```
 
 ### Mac/Linuxの場合：
@@ -28,44 +29,44 @@ $ git clone https://github.com/RyuKurihara/flaskbook.git
 
 ③venvで仮想環境を作成
 ```
-PS C:\~\flaskbook> py -m venv venv
-PS C:\~\flaskbook> venv\Scripts\Activate.ps1
+PS C:\~\hoge> py -m venv venv
+PS C:\~\hoge> venv\Scripts\Activate.ps1
 ```
 
 ④環境変数ファイル設置
 ```
-(venv) PS C:\~\flaskbook> cp .env.local .env
+(venv) PS C:\~\hoge\flaskbook> cp .env.local .env
 ```
 
 ⑤パッケージインストール（今後動かす.pyファイルに必要）
 ```
-(venv) PS C:\~\flaskbook> pip install -r requirements.txt
+(venv) PS C:\~\hoge\flaskbook> pip install -r requirements.txt
 ```
 
 ⑥DBのマイグレート（画像やログイン情報の保持に必要）※初回のみ必要
 ```
-(venv) PS C:\~\flaskbook> flask db init
-(venv) PS C:\~\flaskbook> flask db migrate
-(venv) PS C:\~\flaskbook> flask db upgrade
+(venv) PS C:\~\hoge\flaskbook> flask db init
+(venv) PS C:\~\hoge\flaskbook> flask db migrate
+(venv) PS C:\~\hoge\flaskbook> flask db upgrade
 ```
 
 
 ⑦物体検知モデルのモデル作成（Githubに落とすにはファイルが大きすぎるため別途作成）
 ```
-(venv) PS C:\~\flaskbook> cd .\flaskbook\apps\detector\
-(venv) PS C:\~\flaskbook> python
+(venv) PS C:\~\hoge\flaskbook> cd .\apps\detector\
+(venv) PS C:\~\hoge\flaskbook\apps\detector> python
 (中略)
 >>> import torch
 >>> import torchvision
 >>> model = torchvision.models.detection.maskrcnn_resnet50_fpn(pretrained=True)
 >>> torch.save(model, "model.pt")
 >>> quit()
-(venv) PS C:\~\flaskbook> cd ..\..
+(venv) PS C:\~\hoge\flaskbook\apps\detector> cd ..\..
 ```
 
 ⑧アプリケーションの起動
 ```
-(venv) PS C:\~\flaskbook\flaskbook> flask run
+(venv) PS C:\~\hoge\flaskbook> flask run
 ```
 
 ⑨ http://127.0.0.1:5000/ にアクセス
