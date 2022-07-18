@@ -12,7 +12,7 @@
 
 クローン
 ```
-$ git clone https://github.com/RyuKurihara/flaskbook
+$ git clone https://github.com/RyuKurihara/flaskbook.git
 ```
 
 ### Mac/Linuxの場合、本書のコードを参考にしてください。
