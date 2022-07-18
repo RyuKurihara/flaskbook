@@ -4,7 +4,7 @@
 ### クローン
 
 ```
-$ git clone このgit
+$ git clone https://github.com/RyuKurihara/flaskbook
 ```
 
 ### 想定するフォルダ構成
