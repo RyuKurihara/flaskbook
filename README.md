@@ -1,6 +1,5 @@
 # 「Python Flask によるWebアプリ開発入門」のローカルでの再現
-※1. 上記書籍のうち、物体検知Webアプリのローカルでの再現(主に第2, 3章)を目標としています。
-※2. 上記書籍のソースコードを参考に、まずは写経から！という気持ちで取り組みました。
+※1※2
 
 ## ローカルでの実行
 ※想定するフォルダ構成
@@ -16,7 +15,7 @@
 $ git clone https://github.com/RyuKurihara/flaskbook.git
 ```
 
-### Mac/Linuxの場合、本書のコードを参考にしてください。
+### Mac/Linuxの場合、本書のコード※3を参考にしてください。
 
 ### Windows（Powershell）の場合
 ①スクリプト実行の前に実行ポリシーを変更
@@ -95,3 +94,7 @@ PS C:\~\flaskbook> venv\Scripts\Activate.ps1
 物体検知の結果、矩形とカテゴリ名が記載された画像が得られました。この画像はログインしているユーザーのみが削除可能です。
 また、①先にアップした画像②物体検知後の画像の二枚は、apps/images/内に格納されます。
 ![image](https://user-images.githubusercontent.com/60368967/179619259-528a56cb-11af-4138-b1dd-66fe9adceb51.png)
+
+※1. 上記書籍のうち、物体検知Webアプリのローカルでの再現(主に第2, 3章)を目標としています。
+※2. 上記書籍のソースコードを参考に、まずは写経から！という気持ちで取り組みました。
+※3. https://github.com/ml-flaskbook/flaskbook
