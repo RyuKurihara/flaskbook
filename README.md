@@ -70,5 +70,13 @@ PS C:\~\flaskbook> venv\Scripts\Activate.ps1
 ⑨ http://127.0.0.1:5000/ にアクセス
 
 ## 実行イメージ
-![image](https://user-images.githubusercontent.com/60368967/179615506-baea6e54-e08c-417e-8d21-dbc2ad82207c.png)
+![image](https://user-images.githubusercontent.com/60368967/179615953-bcfd2d86-68e8-470e-8e1b-2c839103d35a.png)
+⑩に従います。
+
+
+
+
+
+
+
 
